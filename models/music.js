@@ -11,7 +11,6 @@ const musicSchema = new mongoose.Schema({
     song: String,
     artist: String,
     album: String,
-    //embedded
     review: [reviewSchema]
 });
 
